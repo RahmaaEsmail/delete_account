@@ -6,6 +6,9 @@
     height: 100vh;
     background-color: #f8f9fa;
     color: #6c757d;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .card {
@@ -45,4 +48,13 @@
     text-decoration: underline;
     display: flex;
     width: fit-content;
+}
+
+.container h4 {
+   text-align: center;
+   color: #343a40;
+   padding: 15px 0px;
+   transform: translateY(60px);
+   font-size: 35px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
